@@ -1,15 +1,18 @@
 body{
     background-color: darkgray;
+    margin: 0;
 }
+
 .feedTitle {
     background-color: white;
     text-align: center;
-    margin-top: 10px;
     padding: 5px;
 }
+
 h1 {
     font-family: 'Courier New', Courier, monospace;
 }
+
 .Post {
     width: 520px;
     margin: 30px auto;
@@ -20,18 +23,18 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
-    
+    padding: 5px;   
 }
+
 .Post-header h2 {
     margin: 0;
 }
     
 .Post-image img{
     width: 100%;
-    display: block;
-    
+    display: block;  
 }
+
 .Post-footer {
     padding: 5px;
 }
